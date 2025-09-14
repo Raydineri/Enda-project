@@ -1,8 +1,8 @@
-# Enda Project
+# Enda Project 🚀
 
 A full-stack web application built with Spring Boot backend and Angular frontend for managing receipts, supervisors, and zones.
 
-## Project Structure
+## Project Structure 🗂️
 
 ```
 enda-project/
@@ -12,42 +12,42 @@ enda-project/
 └── docker-compose.yaml # Docker configuration
 ```
 
-## Technologies Used
+## Technologies Used 🛠️
 
-### Backend (enda-back)
-- **Java 17+**
-- **Spring Boot 3.x**
-- **Spring Mail** - Email functionality
-- **Spring Data JPA** - Database operations
-- **Maven** - Dependency management
-- **Jakarta Mail** - Email services
+### Backend (enda-back) ⚙️
+- **Java 17+** ☕
+- **Spring Boot 3.x** 🌱
+- **Spring Mail** ✉️ - Email functionality
+- **Spring Data JPA** 🗄️ - Database operations
+- **Maven** 📦 - Dependency management
+- **Jakarta Mail** 📧 - Email services
 
-### Frontend (enda-front)
-- **Angular 15+**
-- **TypeScript**
-- **SCSS** - Styling
-- **Angular CLI** - Development tools
+### Frontend (enda-front) 🎨
+- **Angular 15+** 🅰️
+- **TypeScript** 📝
+- **SCSS** 🎨 - Styling
+- **Angular CLI** ⚡ - Development tools
 
-## Features
+## Features ✨
 
-- Receipt management (RecuController, RecuService)
-- Supervisor management (SuperviseurController)
-- Zone management (ZoneController)
-- Access Point management (APController)
-- Email notifications with JavaMailSender
-- File upload functionality
-- RESTful API architecture
+- Receipt management (RecuController, RecuService) 🧾
+- Supervisor management (SuperviseurController) 👨‍💼
+- Zone management (ZoneController) 🗺️
+- Access Point management (APController) 📡
+- Email notifications with JavaMailSender 📬
+- File upload functionality 📁
+- RESTful API architecture 🔗
 
-## Prerequisites
+## Prerequisites 📋
 
-- Java 17 or higher
-- Node.js 16+ and npm
-- Maven 3.6+
-- Docker and Docker Compose (optional)
+- Java 17 or higher ☕
+- Node.js 16+ and npm 🟩
+- Maven 3.6+ 📦
+- Docker and Docker Compose (optional) 🐳
 
-## Getting Started
+## Getting Started 🏁
 
-### Backend Setup
+### Backend Setup ⚙️
 
 1. Navigate to the backend directory:
    ```bash
@@ -66,9 +66,9 @@ enda-project/
    ./mvnw spring-boot:run
    ```
 
-The backend will start on `http://localhost:8080`
+The backend will start on `http://localhost:8080` 🌐
 
-### Frontend Setup
+### Frontend Setup 🎨
 
 1. Navigate to the frontend directory:
    ```bash
@@ -85,9 +85,9 @@ The backend will start on `http://localhost:8080`
    ng serve
    ```
 
-The frontend will start on `http://localhost:4200`
+The frontend will start on `http://localhost:4200` 🌐
 
-### Docker Setup (Optional)
+### Docker Setup (Optional) 🐳
 
 Run the entire application using Docker:
 
@@ -95,7 +95,7 @@ Run the entire application using Docker:
 docker-compose up -d
 ```
 
-## Configuration
+## Configuration ⚙️
 
 ### Backend Configuration
 - Main config: `enda-back/src/main/resources/application.yaml`
@@ -106,47 +106,47 @@ docker-compose up -d
 - Angular config: `enda-front/angular.json`
 - TypeScript config: `enda-front/tsconfig.json`
 
-## API Endpoints
+## API Endpoints 🔗
 
 The backend provides RESTful APIs for:
-- `/api/recu` - Receipt management
-- `/api/superviseur` - Supervisor management  
-- `/api/zone` - Zone management
-- `/api/ap` - Access Point management
+- `/api/recu` - Receipt management 🧾
+- `/api/superviseur` - Supervisor management 👨‍💼  
+- `/api/zone` - Zone management 🗺️
+- `/api/ap` - Access Point management 📡
 
-## Models
+## Models 🧩
 
 ### Frontend Models
-- `ap.model.ts` - Access Point model
-- `recu.model.ts` - Receipt model
-- `superviseur.model.ts` - Supervisor model
-- `zone.model.ts` - Zone model
+- `ap.model.ts` - Access Point model 📡
+- `recu.model.ts` - Receipt model 🧾
+- `superviseur.model.ts` - Supervisor model 👨‍💼
+- `zone.model.ts` - Zone model 🗺️
 
 ### Backend Entities
 Located in `enda-back/src/main/java/com/ray/enda/model/`
 
-## Services
+## Services 🛎️
 
 ### Frontend Services
-- `recu.service.ts` - Receipt service for API communication
+- `recu.service.ts` - Receipt service for API communication 🔗
 
 ### Backend Services
 Located in `enda-back/src/main/java/com/ray/enda/service/`
 
-## Development
+## Development 🧑‍💻
 
 ### Backend Development
-- Use your preferred IDE (IntelliJ IDEA recommended)
-- Follow Spring Boot conventions
+- Use your preferred IDE (IntelliJ IDEA recommended) 💡
+- Follow Spring Boot conventions 🌱
 - Add new controllers in the controller package
 - Add new services in the service package
 
 ### Frontend Development
-- Use Angular CLI for generating components: `ng generate component component-name`
-- Follow Angular style guide
+- Use Angular CLI for generating components: `ng generate component component-name` ⚡
+- Follow Angular style guide 🅰️
 - Add new services: `ng generate service service-name`
 
-## Testing
+## Testing 🧪
 
 ### Backend Tests
 ```bash
@@ -160,7 +160,7 @@ cd enda-front
 ng test
 ```
 
-## Build for Production
+## Build for Production 🏗️
 
 ### Backend
 ```bash
@@ -174,7 +174,7 @@ cd enda-front
 ng build --prod
 ```
 
-## Contributing
+## Contributing 🤝
 
 1. Fork the repository
 2. Create a feature branch
@@ -182,12 +182,11 @@ ng build --prod
 4. Push to the branch
 5. Create a Pull Request
 
-## License
+## License 📄
 
 This project is licensed under the Apache License 2.0 - see the Spring framework license for details.
 
-## Contact
+## Contact 📬
 
 - GitHub: [@Raydineri](https://github.com/Raydineri)
 - Project Repository: [https://github.com/Raydineri/Enda-project.git](https://github.com/Raydineri/Enda-project.git)
-
