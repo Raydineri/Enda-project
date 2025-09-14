@@ -1,0 +1,47 @@
+.container {
+  max-width: 600px;
+
+  .card-header {
+    background-color: #007bff;
+    color: white;
+    padding: 5px;
+
+    .company-photo {
+      max-width: 35%;
+      height: auto;
+      border-radius: 10px;
+    }
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    margin-top: 20px;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+
+    i {
+      margin-right: 5px;
+    }
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+      margin-top: 20px;
+    &:first-of-type {
+      margin-top: 15px;
+    }
+    input, select, textarea {
+      border: 1px solid #ced4da;
+      border-radius: 0.25rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+.form-footer {
+  color: #777;
+  font-size: 1.0rem;
+  padding: 10px 0;
+}

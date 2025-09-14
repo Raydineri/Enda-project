@@ -1,0 +1,54 @@
+<div class="container mt-5">
+  <div class="card">
+    <div class="card-header text-center">
+      <img src="assets/enda logo1.png" alt="Photo Société" class="company-photo">
+    </div>
+    <div class="card-body">
+      <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="superviseur">Superviseur</label>
+          <select [(ngModel)]="selectedSuperviseur" (change)="onSuperviseurChange()" name="superviseur" id="superviseur" class="form-control">
+            <option *ngFor="let superviseur of superviseurs" [value]="superviseur.id">{{superviseur.nom}} {{superviseur.prenom}}</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="zone">Zone</label>
+          <select [(ngModel)]="selectedZone" (change)="onZoneChange()" name="zone" id="zone" class="form-control">
+            <option *ngFor="let zone of filteredZones" [value]="zone.id">{{zone.name}}</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="ap">AP</label>
+          <select [(ngModel)]="selectedApGsm" name="ap" id="ap" class="form-control">
+            <option *ngFor="let ap of filteredAPs" [value]="ap.gsm">{{ap.gsm}}</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="recu1">Reçu Début</label>
+          <input [(ngModel)]="numeroRecudebut" name="recu1" type="number" class="form-control" id="recu1" placeholder="Enter reçu 1">
+        </div>
+
+        <div class="form-group">
+          <label for="recuN">Reçu Fin</label>
+          <input [(ngModel)]="numeroRecufin" name="recuN" type="number" class="form-control" id="recuN" placeholder="Enter reçu N">
+        </div>
+
+        <div class="form-group">
+          <label for="upload">Upload</label>
+          <input (change)="onFileSelected($event)" name="upload" type="file" class="form-control" id="upload">
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+          <i class="fa fa-upload"></i> Envoyer
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<footer class="form-footer text-center mt-4">
+  © 2023 Enda. Tous les droits sont réservés.
+</footer>
