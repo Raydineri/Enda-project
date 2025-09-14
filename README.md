@@ -190,3 +190,9 @@ This project is licensed under the Apache License 2.0 - see the Spring framework
 
 - GitHub: [@Raydineri](https://github.com/Raydineri)
 - Project Repository: [https://github.com/Raydineri/Enda-project.git](https://github.com/Raydineri/Enda-project.git)
+
+---
+
+## Internship Information 🎓
+
+This project was developed as part of an internship with **ENDA-TAO**.
